@@ -8,12 +8,13 @@
 
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { Category } from './src/components/Category';
+import { HomeStack } from './src/components/HomeStack';
+
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Category />
+      <HomeStack />
     </NavigationContainer>
   );
 };
