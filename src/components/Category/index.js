@@ -4,7 +4,9 @@ import { StyledImage, StyledView, StyledText } from './styles'
 
 const DEFAULT_IMAGE = 'https://i.imgur.com/dJa0Hpl.jpg'
 
-export const Category = ({ cover = DEFAULT_IMAGE, path, emoji = '?' }, key) => {
+/* export const Category = ({ cover = DEFAULT_IMAGE, path, emoji = '?',}, key) => { */
+export const Category = ({ cover = DEFAULT_IMAGE, path, emoji = '?', name, id}) => {    
+    
     return (
         <StyledView >
             <StyledImage
