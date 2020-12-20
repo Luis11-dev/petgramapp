@@ -2,18 +2,19 @@ import React from 'react'
 import { View } from 'react-native'
 import { ListOfCategories } from '../ListOfCategories'
 import { PhotoCard } from '../PhotoCard'
+import { StyledCategoriesContainer, StyledViewContainer } from './styles'
 
 export const HomeScreen = () => {
 
     return (
-        <View>
-            <View>
+        <StyledViewContainer>
+            <StyledCategoriesContainer>
                 <ListOfCategories />
-            </View>
+            </StyledCategoriesContainer>
             <View>
                 <PhotoCard />
             </View>
-        </View>
+        </StyledViewContainer>
 
     )
 }
