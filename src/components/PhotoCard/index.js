@@ -9,15 +9,15 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
     console.log('esto es el src: ', src)
     return (
         <View>
-            <StyleImageView >
-                <Pressable>
-                    <StyledImage /* style={styled.coverImage} */
+            <Pressable>
+                <StyleImageView /* style={styled.container} */ >
+                    <StyledImage 
                         source={{
                             uri: src
                         }}
                     />
-                </Pressable>
-            </StyleImageView>
+                </StyleImageView>
+            </Pressable>
 
             <View>
                 <Pressable>
@@ -30,9 +30,19 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
     )
 }
 
-const styled = StyleSheet.create({
+/* const styled = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        borderRadius: 10,
+        height: 100,
+        overflow: 'hidden',
+        paddingTop: 56.25,
+        paddingRight: 0,
+        paddingLeft: 0,
+        paddingBottom: 0,
+        position: 'relative',
+        width: 100
+
     },
 
     row: {
@@ -43,4 +53,4 @@ const styled = StyleSheet.create({
         width: 100,
         height: 100
     }
-})
+}) */

@@ -5,7 +5,8 @@ export const StyleImageView = styled.View`
     /*display: block; react native no soporta la propiedad display block, todas actuan como flex que es como block */
     display: flex;
     height: 0;
-    /*overflow: hidden;*/
+    /* align-items: stretch; probar si funciona*/
+    /* overflow: hidden; */
     padding: 56.25% 0 0 0;
     position: relative;
     width: 100%;
@@ -18,4 +19,6 @@ export const StyledImage = styled.Image`
     position: absolute;
     top: 0;
     width: 100%;
+    border-radius: 10px;
 `
+
