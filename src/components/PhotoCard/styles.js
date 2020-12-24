@@ -38,11 +38,14 @@ export const StyledTextPhotocardContainer = styled.View`
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* align-items: flex-end; */
+    align-items: center;
     /* height: 100%; */
     width: 100%;
     padding: 8px 0 8px 8px;
    /*  border: solid green; */
+   /* & svg {
+       margin-right: 4px;
+   }  React Native no parece reconocer este elemento SVG*/
     
 `
 
