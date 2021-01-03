@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 export const HomeStack = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name='Home' component={HomeScreen} />
+            <Stack.Screen name='Petgram' component={HomeScreen} />
         </Stack.Navigator>
 
     )
