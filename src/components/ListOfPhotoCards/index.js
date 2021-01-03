@@ -9,19 +9,19 @@ import {photos} from '../../../api/db.json'
 
 export const ListOfPhotoCards = () => {
     return (
-       /*  <StylesViewPhotocard>
+        <StylesViewPhotocard>
             <StyledFlatList
                 data={photos}
                 renderItem={({ item }) => (<PhotoCard src={item.src} />)}
                 keyExtractor={({id}) => id.toString()}
             />
-        </StylesViewPhotocard> */
+        </StylesViewPhotocard>
         
-         <ScrollView>
+        /* <ScrollView>
              {[1,2,3,4].map(item => <PhotoCard key={item}/>)}
-             {/* {[1,2,3,4].map(item => <Category key={item}/>)} */} 
+             {{[1,2,3,4].map(item => <Category key={item}/>)} 
              
-         </ScrollView>
+         </ScrollView>*/ 
          
 
 

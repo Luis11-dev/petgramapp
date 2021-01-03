@@ -6,8 +6,8 @@ export const StyledPhotoCardContainer = styled.View`
     flex-direction: column;
     /* background: red;  */
     padding-top: 8px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 500px; */
     /* border: solid black;   */    
 `
 
@@ -21,7 +21,7 @@ export const StyleImageView = styled.View`
     /* padding: 56.25% 0 0 0; le quito esta relación por lo mismo del object-fit */
     position: relative;
     width: 100%;
-    border: solid blue;
+    /* border: solid blue; */
 `
 
 export const StyledImage = styled.Image`

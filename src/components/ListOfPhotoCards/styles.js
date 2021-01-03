@@ -4,9 +4,9 @@ export const StyledFlatList = styled.FlatList`
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    border: solid green;
+    /* border: solid green; */
     /* height: 500px; */
 `
 export const StylesViewPhotocard = styled.View`
-    border: solid yellow;
+    /* border: solid yellow; */
 `
