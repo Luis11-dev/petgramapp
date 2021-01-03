@@ -1,6 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import { ListOfCategories } from '../ListOfCategories'
+import { ListOfPhotoCards } from '../ListOfPhotoCards'
 import { PhotoCard } from '../PhotoCard'
 import { StyledCategoriesContainer, StyledViewContainer } from './styles'
 
@@ -12,7 +13,8 @@ export const HomeScreen = () => {
                 <ListOfCategories />
             </StyledCategoriesContainer>
             <View>
-                <PhotoCard />
+                <ListOfPhotoCards />
+                {/* <PhotoCard /> */}
             </View>
         </StyledViewContainer>
 
